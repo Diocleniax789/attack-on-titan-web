@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'The Dark Titan Classic';
+	src: url('../fonts/The Dark Titan Classic.ttf') format('truetype');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background-image: url('../images/fondo1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+#header img {
+	width: 200px;	
+}
+
+#formulario {
+	padding: 20px;
+}
+
+#formulario form {
+	margin: 5px;
+}
+
+#formulario label {
+	font-family: 'The Dark Titan Classic';
+	color: mintcream;
+}
+
+.usuario {
+	margin: 5px;	
+}
+
+.password {
+	margin: 5px;
+}
+
+#navegator {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+
+#navegator ul {
+	list-style: none;
+	display: flex;
+	gap: 300px;
+}
+
+#navegator ul a li  {
+	font-family: 'The Dark Titan Classic';
+	color: mintcream;
+}
+
+#fondo-pagina img {
+	position: relative;
+	width: 100%;
+}
+
+
+#footer {
+	margin-top: 5px;
+	background-color: black;
+	padding: 10px;
+}
+
+#footer p { 
+	font-family: 'The Dark Titan Classic';
+	color: mintcream;
+	font-size: 10px;
+	text-align: center;
+}
