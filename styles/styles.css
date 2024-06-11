@@ -64,6 +64,31 @@ body {
 	width: 100%;
 }
 
+.main-title {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 1000px;
+	height: 50px;
+	top: 400px;
+	left: 350px;
+	padding: 90px;
+	border-radius: 20px;
+	border: solid 1px;
+	border-color: linear-gradient(to right,black,grey);		
+}
+
+.main-title h1 {
+	font-family: 'The Dark Titan Classic';	
+	color: mintcream;
+	font-size: 80px;
+	text-align: center;
+	margin: 0;
+
+
+#contenedor-secciones img {
+    position: relative;
+	width: 100%;
+}
 
 #footer {
 	margin-top: 5px;
