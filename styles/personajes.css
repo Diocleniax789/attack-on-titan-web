@@ -63,3 +63,66 @@ body {
 a {
 	text-decoration: none;
 }
+
+#main-background img {
+	position: relative;
+	width: 100%;
+}
+
+.main-title {
+	display: flex;
+	top: 200px;
+	left: 600px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 20px;
+}
+
+.main-title h1 {
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: 'The Dark Titan Classic';
+	color: mintcream;
+}
+
+#contenedor-tabla {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 721px;
+	height: 900px;
+	top: 350px;
+	left: 600px;
+}
+
+table {
+	position: absolute;
+	left: 116px;
+	top: 30px;
+}
+
+table tr {
+
+}
+
+@keyframes parpadeo {
+	0% {
+		border-color: black;
+	}
+	50% {
+		border-color: darkblue;
+	}
+	100% {
+		border-color: blue;
+	}
+}
+
+table td img {
+	border: solid 2px;
+	width: 154px;
+	height: 158px;
+	animation: parpadeo 1s infinite;	
+}
+
+table td img:hover {
+	filter: brightness(1.3);
+}
