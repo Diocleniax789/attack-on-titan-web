@@ -149,7 +149,7 @@ a {
 	}
 
 	100% {
-		border-color: grey;
+		border-color: darkred;
 	}
 }
 
@@ -160,7 +160,7 @@ a {
 	margin: 10px;
 	border-radius: 10px;
 	border: solid 2px;
-	animation: flash 0.50s infinite ;
+	animation: flash 2s infinite ;
 }
 
 #seccion-carteles .banner img:hover {
