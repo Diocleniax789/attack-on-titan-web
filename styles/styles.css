@@ -55,9 +55,12 @@ body {
 	gap: 300px;
 }
 
-#navegator ul a li  {
+#navegator ul li  {
 	font-family: 'The Dark Titan Classic';
 	color: mintcream;
+}
+
+a {
 	text-decoration: none;
 }
 
@@ -136,6 +139,20 @@ body {
 	font-size: 25px;
 }
 
+@keyframes flash {
+	0% {
+		border-color: white;		
+	}
+
+	50% {
+		border-color: darkorange;
+	}
+
+	100% {
+		border-color: grey;
+	}
+}
+
 #seccion-carteles .banner img {
 	top: 25px;
 	width: 450px;
@@ -143,7 +160,7 @@ body {
 	margin: 10px;
 	border-radius: 10px;
 	border: solid 2px;
-	border-image: linear-gradient(to right, darkgrey,grey)1;
+	animation: flash 0.50s infinite ;
 }
 
 #seccion-carteles .banner img:hover {
@@ -196,6 +213,20 @@ body {
 	top: 70px;
 	left: 75px;
 	height: 400px;
+}
+
+.anuncio-juego {
+	position: absolute;
+	width: 700px;
+	top: 1700px;
+	left: 550px;
+	border: solid 3px;
+	border-image: linear-gradient(to right,darkorange,orangered,orange,white)1;
+	transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.anuncio-juego:hover {
+	filter: brightness(1.8);
 }
 
 #pie-pagina {
