@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'The Dark Titan Classic';
+	src: url('../fonts/The Dark Titan Classic.ttf') format('truetype');
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -22,3 +27,36 @@ header .formulario {
 	margin-right: 15px;
 	margin-top: 15px;
 }
+
+header .formulario .texto {
+	font-family: 'The Dark Titan Classic';
+	color: wheat;
+	margin-left: 5px;
+}
+
+header .formulario .input {
+	border: solid 1px black;
+}
+
+#navegator {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+
+#navegator ul {
+	list-style: none;
+	display: flex;
+	gap: 100px;
+}
+
+#navegator a {
+	font-family: 'The Dark Titan Classic';
+	text-decoration: none;
+	color: wheat;
+}
+
+#navegator li:hover {
+	filter: brightness(1.8);	
+}
+
