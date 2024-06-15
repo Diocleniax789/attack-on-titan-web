@@ -4,14 +4,20 @@
 }
 
 body {
+	background-image: url('../images/gothic3.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
 	margin: 0;
 	padding: 0;
+	height: auto;
 }
 
 header {
-	background-image: url('../images/fondo1.jpg');
+	background-image: url('../images/fondo9.jpg');
 	background-repeat: no repeat;	
 	background-size: 100%;
+	background-position-y: 415px;
+	padding: 5px;
 }
 
 header #header-container {
@@ -21,6 +27,11 @@ header #header-container {
 
 header #header-container img {
 	width: 150px;
+	transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+header #header-container img:hover {
+	filter: brightness(1.8);
 }
 
 header .formulario {
@@ -60,3 +71,46 @@ header .formulario .input {
 	filter: brightness(1.8);	
 }
 
+.main-content {
+	position: relative;
+	background-image: url('../images/fondovideos.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 20px;
+	border-style: double;
+	border-color: wheat;
+	top: 15px;
+	left: 100px;
+	width: 1700px;
+	height: 400px;
+	display: flex;
+	padding: 10px;
+}
+
+.main-content .main-title  h1 {
+	position: absolute;
+	font-family: 'The Dark Titan Classic';
+	font-size: 150px;
+	color: white;
+	left: 100px;
+	top: 45px;
+	text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.main-content img {
+	position: absolute;
+	right: 40px;
+	width: 950px;
+}
+
+#publicidad-conteiner {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 500px;
+	top: 100px;
+	positiosn: relative;
+
+}
