@@ -4,12 +4,9 @@
 }
 
 body {
-	background-image: url('../images/gothic3.png');
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background-color: white;
 	margin: 0;
 	padding: 0;
-	height: auto;
 }
 
 header {
@@ -71,46 +68,127 @@ header .formulario .input {
 	filter: brightness(1.8);	
 }
 
-.main-content {
-	position: relative;
+#main-background {
+	background-image: url('../images/gothic3.png');
+	background-color: greenyellow;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 650px;
+}
+
+#main-background .cartel-video {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
 	background-image: url('../images/fondovideos.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
+	border: double 3px wheat;
 	border-radius: 20px;
-	border-style: double;
-	border-color: wheat;
-	top: 15px;
-	left: 100px;
 	width: 1700px;
 	height: 400px;
-	display: flex;
-	padding: 10px;
+	top: 200px;
+	left: 100px;
+	filter: drop-shadow(10px 10px);
 }
 
-.main-content .main-title  h1 {
+#main-background .cartel-video h1 {
 	position: absolute;
 	font-family: 'The Dark Titan Classic';
+	filter: drop-shadow(6px 6px);
 	font-size: 150px;
 	color: white;
 	left: 100px;
-	top: 45px;
+	top: 40px;
 	text-shadow: 
     -1px -1px 0 #000,  
      1px -1px 0 #000,
     -1px  1px 0 #000,
-     1px  1px 0 #000;
+     1px  1px 0 #000; 
 }
 
-.main-content img {
+#main-background .cartel-video img {
 	position: absolute;
+	filter: drop-shadow(6px 6px);
 	right: 40px;
 	width: 950px;
 }
 
-#publicidad-conteiner {
-	background-color: rgba(0, 0, 0, 0.6);
-	width: 500px;
-	top: 100px;
-	positiosn: relative;
+#main-background-2 {
+	position: relative;
+	background-image: url('../images/gothic4.png');
+	background-position-y: -100px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 1000px;
+}
 
+#main-background-2 .anuncios {
+	display: flex;
+	position: absolute;
+	background-image: url('../images/gothic7.jpg');
+	background-position-x: -280px;
+	background-position-y: -300px;
+	border: double 3px wheat;
+	border-radius: 20px;
+	width: 500px;
+	height: 800px;
+	top: 50px;
+	left: 50px;
+}
+
+.seccion-videos {
+	display: flex;
+	position: relative;
+	background-image: url('../images/gothic6.jpg');
+	border: double 3px wheat;
+	border-radius: 20px;
+	background-position-y: -80px;
+	width: 1215px;
+	height: 800px;
+	top: 50px;
+	left: 600px;
+}
+
+.seccion-videos img {
+	filter: drop-shadow(6px 6px);
+	position: absolute;
+	left: 700px;
+	top: 400px;
+	width: 600px;
+	height: 600px;
+}
+
+#main-background-3 {
+	background-color: antiquewhite;
+	position: relative;
+	width: 100%;
+	height: 600px;
+}
+
+#main-background-3 img {
+	position: absolute;
+	width: 350px;
+}
+
+.contenedor-videos {
+	position: absolute;
+	width: 500px;
+	height: 20px;
+	top: 100px;
+	left: 100px;
+}
+
+
+#footer {
+	padding: 10px;
+	background-color: black;
+}
+
+#footer p {
+	text-align: center;
+	color: wheat;
+	font-family: 'The Dark Titan Classic';	
 }
