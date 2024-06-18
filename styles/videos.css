@@ -156,35 +156,51 @@ header .formulario .input {
 	filter: drop-shadow(6px 6px);
 	position: absolute;
 	left: 700px;
-	top: 400px;
+	top: 325px;
 	width: 600px;
 	height: 600px;
 }
 
 #main-background-3 {
-	background-color: antiquewhite;
+	background-image: url('../images/gothic8.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position-y: -150px;
 	position: relative;
 	width: 100%;
 	height: 600px;
 }
 
-#main-background-3 img {
-	position: absolute;
-	width: 350px;
+.contenedor-videos {
+	background-color: rgba(0, 0, 0, 0.6);
+	position: relative;
+	border: double 3px wheat;
+	border-radius: 20px;
+	width: 1600px;
+	height: 400px;
+	top: 100px;
+	left: 150px;
 }
 
-.contenedor-videos {
+.contenedor-videos .video {
 	position: absolute;
-	width: 500px;
-	height: 20px;
-	top: 100px;
-	left: 100px;
+	left: 50px;
+	top: 45px;
+
+}
+
+.contenedor-videos .imagen {
+	position: absolute;
+	right: 100px;
+	width: 350px;
+	height: 500px;
+	top: 50px;
 }
 
 
 #footer {
-	padding: 10px;
 	background-color: black;
+	padding: 10px;
 }
 
 #footer p {
