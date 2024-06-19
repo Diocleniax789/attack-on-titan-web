@@ -148,8 +148,23 @@ header .formulario .input {
 	background-position-y: -80px;
 	width: 1215px;
 	height: 800px;
-	top: 50px;
+	top: 60px;
 	left: 600px;
+}
+
+.seccion-videos .video-0 {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	left: 30px;
+	top: 60px;
+	gap: 35px;
+}
+
+.seccion-videos .video-3 {
+	position: absolute;
+	top: 400px;
+	left: 30px;
 }
 
 .seccion-videos img {
@@ -166,9 +181,9 @@ header .formulario .input {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position-y: -150px;
-	position: relative;
 	width: 100%;
-	height: 600px;
+	height: 750px;
+
 }
 
 .contenedor-videos {
@@ -186,17 +201,25 @@ header .formulario .input {
 	position: absolute;
 	left: 50px;
 	top: 45px;
+}
 
+.contenedor-videos .video-2 {
+	position: absolute;
+	left: 650px;
+	top: 45px;
 }
 
 .contenedor-videos .imagen {
-	position: absolute;
-	right: 100px;
-	width: 350px;
-	height: 500px;
 	top: 50px;
 }
 
+.contenedor-videos .imagen img {
+	position: absolute;
+	left: 1300px;
+	width: 450px;
+	height: 600px;
+	filter: drop-shadow(10px 10px);
+}
 
 #footer {
 	background-color: black;
