@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'The Dark Titan Classic';
+	src: url('../fonts/The Dark Titan Classic.ttf') format(TrueType);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-image: url('../images/fondo1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;	
+	display: flex;
+	justify-content: space-between;
+}
+
+header img {
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 150px;
+}
+
+header form {
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.label-text {
+	font-family: 'The Dark Titan Classic';
+	color: wheat;
+}
+
+#navegator {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+#navegator ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	gap: 100px;
+}
+
+#navegator a {
+	color: wheat;
+	font-family: 'The Dark Titan Classic';
+	text-decoration: none;
+}
+
+#main-banner {
+	background-image: url('../images/fondobanner.png');
+	background-position-y: -850px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 60px;
+	padding: 5px;
+	position: relative;	
+}
+
+#main-banner h1 {
+	position: absolute;
+	font-family: 'The Dark Titan Classic';
+	color: wheat;	
+	left: 850px;
+	text-shadow:     
+	-1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
