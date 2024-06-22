@@ -4,6 +4,7 @@
 }
 
 body {
+	background-color: black;
 	margin: 0;
 	padding: 0;
 }
@@ -75,7 +76,99 @@ header form {
      1px  1px 0 #000; 
 }
 
+#main-background img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
 
+#main-background .imagen-1 {
+	position: absolute;
+	width: 1090px;
+	height: 990px;
+	top: 200px;
+	left: -150px;
+	z-index: 20;
+}
+
+#main-background #container {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 1180px;
+	height: 800px;
+	left: 600px;
+	top: 315px;
+	border: solid 10px wheat;
+	border-radius: 10px;
+}
+
+#main-background #container img {
+	left: 225px;
+	top: 30px;
+	width: 750px;
+	height: 250px;
+	border: solid 2px wheat;
+}
+
+#main-background #container #container-texto {
+	position: absolute;
+	background-color: black;
+	border: solid 2px wheat;
+	border-radius: 10px;
+	width: 600px;
+	height: 150px;
+	left: 300px;
+	top: 300px;
+	padding: 5px;	
+}
+
+#main-background #container #container-texto .texto {
+	position: absolute;
+	margin-bottom: 0;
+	margin-top: 0;
+	top: 20px;
+	font-family: 'The Dark Titan Classic';
+	color: wheat;
+	text-align: center;	
+}
+
+#main-background #container .boton {
+	position: absolute;
+	background-image: url('../images/fondo1.jpg');
+	left: 500px;
+	width: 200px;
+	height: 60px;
+	top: 500px;
+	font-family: 'The Dark Titan Classic';
+	color: white;
+	font-size: 45px;
+	transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#main-background #container .boton:hover {
+	filter: brightness(1.8);
+}
+
+#main-background #container .imagen-2 {
+	height: 700px;
+	width: 700px;
+	left: 550px;
+	top: 100px;
+	border: none;
+
+}
+
+
+#footer {
+	background-color: black;
+	padding: 5px;
+}
+
+#footer p {
+	font-family: 'The Dark Titan Classic';
+	color: wheat;
+	text-align: center;	
+}
 
 
 
